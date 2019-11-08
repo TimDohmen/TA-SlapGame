@@ -38,5 +38,19 @@ let player = {
 }
 
 let items = {
-
+  firstDie: {
+    name: "D8",
+    modifier: Math.random() * 80
+  },
+  secondDie: {
+    name: "D10",
+    modifier: Math.random() * 100
+  },
+  thirdDie: {
+    name: "D20",
+    modifier: Math.random() * 200
+  },
+  nothing: {
+    modifier: 0
+  }
 }
